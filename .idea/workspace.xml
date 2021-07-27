@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17c14676-ccc8-40e4-975b-90b62813b0e4" name="Default Changelist" comment="" />
+    <list default="true" id="17c14676-ccc8-40e4-975b-90b62813b0e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/foltz/froggarden/collision/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dev/foltz/froggarden/collision/Hit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FrogGarden/dev/foltz/froggarden/FrogGarden.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FrogGarden/dev/foltz/froggarden/FrogGarden.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FrogGarden/dev/foltz/froggarden/processing/FGPApplet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/foltz/froggarden/FrogGarden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/foltz/froggarden/FrogGarden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dev/foltz/froggarden/processing/FGPApplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dev/foltz/froggarden/backend/processing/FGPApplet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +19,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1vt6XcSkOtWmB3IKu8ZEiVkYoBe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="C:/Program Files/processing-3.5.4/core/library/core.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -65,29 +82,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627369294762" />
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1627370250060">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom" timestamp="1627427813917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627370250060" />
-    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1627370250060">
+    <state width="1876" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627427813917" />
+    <state width="1876" height="277" key="GridCell.Tab.0.center" timestamp="1627427813917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627370250060" />
-    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1627370250060">
+    <state width="1876" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627427813917" />
+    <state width="1876" height="277" key="GridCell.Tab.0.left" timestamp="1627427813917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627370250060" />
-    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1627370250060">
+    <state width="1876" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627427813917" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right" timestamp="1627427813917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627370250060" />
+    <state width="1876" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627427813917" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1627369299024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627369299024" />
-    <state x="136" y="235" key="run.anything.popup" timestamp="1627370079882">
+    <state x="136" y="235" key="run.anything.popup" timestamp="1627373516749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="136" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627370079882" />
+    <state x="136" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627373516749" />
   </component>
 </project>

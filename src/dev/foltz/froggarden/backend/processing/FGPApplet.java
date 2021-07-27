@@ -1,6 +1,8 @@
-package dev.foltz.froggarden.processing;
+package dev.foltz.froggarden.backend.processing;
 
+import dev.foltz.froggarden.FrogGarden;
 import processing.core.PApplet;
+import processing.core.PImage;
 
 public class FGPApplet extends PApplet {
     @Override
@@ -12,12 +14,13 @@ public class FGPApplet extends PApplet {
     @Override
     public void setup() {
         this.getSurface().setResizable(true);
-        this.frameRate(60);
+        this.getSurface().setTitle("FrogGarden");
+        this.frameRate(FrogGarden.FPS);
     }
 
     @Override
     public void draw() {
-        this.background(204);
-        this.ellipse(this.mouseX, this.mouseY, 25, 25);
+        FrogGarden.update();
+        FrogGarden.render();
     }
 }
