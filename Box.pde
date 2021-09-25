@@ -71,7 +71,7 @@ class Box {
             hit.delta.x = px * sx;
             hit.normal.x = sx;
             hit.pos.x = pos.x + (half.x * sx);
-            hit.pos.x = point.y;
+            hit.pos.y = point.y;
         }
         else {
             final float sy = sign(dy);
